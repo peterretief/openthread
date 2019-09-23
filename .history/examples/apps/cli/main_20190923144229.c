@@ -26,8 +26,6 @@
  *  POSSIBILITY OF SUCH DAMAGE.
  */
 
-
-
 #include <assert.h>
 #include <openthread-core-config.h>
 #include <openthread/config.h>
