@@ -41,24 +41,6 @@
 extern "C" {
 #endif
 
-
-/**
- * Init LED module.
- *
- */
-void otSysLedInit(void);
-void otSysLedSet(uint8_t aLed, bool aOn);
-void otSysLedToggle(uint8_t aLed);
-
-/**
-* A callback will be called when GPIO interrupts occur.
-*
-*/
-typedef void (*otSysButtonCallback)(otInstance *aInstance);
-void otSysButtonInit(otSysButtonCallback aCallback);
-void otSysButtonProcess(otInstance *aInstance);
-
-
 /**
  * This function performs all platform-specific initialization of OpenThread's drivers.
  *
